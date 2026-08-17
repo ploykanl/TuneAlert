@@ -42,7 +42,8 @@ public final class Song {
     private void checkRep(){
         assert title!= null && title !="";
         assert artist!= null && artist !="";
-        assert tags!= null && !tags.contains(null)&& !tags.contains("");
+        assert tags!= null && !tags.contains(null)
+                      && !tags.contains("");
     }
 
     // ---------- observers ----------
